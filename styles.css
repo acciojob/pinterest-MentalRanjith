@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+.hero{
+	display:flex;
+	 justify-content: space-between;
+	align-items: center;
+}
+.hero-content h1{
+	justify-content:center;
+	align-items: center;
+	margin-bottom: 10px;
+	
+}
+.hero-content p{
+		margin-bottom: 10px;
+}
+.hero img{
+	width:300px;
+	height:200px;
+	object-fit: cover;
+	 border-radius: 20px;
+}
+.hero-content a.explore-button{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:10px;
+}
